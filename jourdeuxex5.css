@@ -1,3 +1,81 @@
-.nav-droite {
+.nav-droite  {
     display: flex;
+    margin: 1vh;
+    float: right;
+    margin-right: 7vh;
+    font-size: 1em;
+    background-color: #ffffff;
+}
+.nav-gauche {
+    
+    margin: 1vh;
+    position: absolute;
+    width: 115vh;
+    background-color: #ffffff;
+}
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+  
+}
+li a {
+     display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: #353535;
+  font-weight: bold;
+}
+/* Barre de navigation */
+
+
+
+main {
+    text-align: center;
+    border: 1px solid red;
+    position: absolute;
+    top: 30vh;
+    right: 78vh;
+    bottom: 20vh;
+    left: 10vh;
+    width: 90%;
+    height: 50%;
+    background-color: white;
+}
+h1{
+    font-size: 3.2em;
+    text-align: center;
+    align-items: center;
+    
+}
+section {
+    background-color: grey;
+    width: 90%;
+}
+.un {
+    background-color: red;
+    position: absolute;
+    border: 1px solid red;
+    top: 110vh;
+    left: 15vh;
+    width: 25vw;
+    height: 20vh;
+}
+.deux {
+    background-color: green;
+    position: absolute;
+    top: 110vh;
+    left: 80vh;
+    width: 25vw;
+    height: 20vh;
+}
+.trois {
+    background-color: yellow;
+    position: absolute;
+    top: 110vh;
+    left: 143vh;
+    width: 25vw;
+    height: 20vh;
 }
