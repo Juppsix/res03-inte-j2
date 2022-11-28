@@ -1,0 +1,84 @@
+body {
+    background-color: #ffffff;
+   margin: 0em;
+   height: 100vh;
+   width: 100vw;
+   font-size: 0.9em;
+}
+.header {
+    background-color: #ffffff;
+     padding-top: none;
+     margin-top: 0em;
+     text-align: center;
+     font-size: 5vh;
+}
+footer {
+    background-color: #ffffff;
+    height: 25vh;
+    margin-bottom: 100em;
+    margin-top: 18em;
+    
+}
+main {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    
+}
+.box {
+    width: 250px;
+    height: 100px;
+    flex-direction: ;
+    align-items : center;
+    margin : 10px;
+    margin-top: 140px;
+   
+}
+.one {
+    background-color: #ffffff;
+    margin-top: 30px;
+    position: absolute;
+    margin-left: -85vh;
+    
+    height: 50vh;
+    width: 120vh;
+    
+}
+.two  {
+    background-color: #ffffff;
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 115vh;
+   
+    width: 70vh;
+    height: 50vh;
+}
+.three{
+    background-color : #ffffff;
+    margin-top: 60vh;
+    position: absolute;
+    margin-right: -136vh;
+  
+    height: 50vh;
+    width: 70vh;
+}
+.four {
+    background-color: #ffffff;
+    margin-top: 60vh;
+    position: absolute;
+    
+    height: 50vh;
+    width: 65vh;
+}
+.five {
+    background-color : #ffffff;
+    position : absolute;
+    margin-top: 60vh;
+    margin-right: 140vh;
+    
+    height: 50vh;
+    width: 70vh;
+}
+/* taille des box par défaut 
+width: 250px;
+    height: 100px;
