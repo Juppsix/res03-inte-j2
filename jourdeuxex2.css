@@ -14,7 +14,69 @@ header {
 footer {
     background-color: red;
     height: 25vh;
-    margin-bottom: 400em;
-    margin-top: 30em;
+    margin-bottom: 100em;
+    margin-top: 18em;
     
+}
+main {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    
+}
+.box {
+    width: 250px;
+    height: 100px;
+    flex-direction: ;
+    align-items : center;
+    margin : 10px;
+    margin-top: 140px;
+    text-align: center;
+}
+.one {
+    background-color: yellow;
+    margin-top: 30px;
+    
+}
+.two  {
+    background-color: yellow;
+    margin-top: 30px;
+}
+.three{
+    background-color : yellow;
+    margin-top: 30px;
+}
+.four {
+    background-color: yellow;
+    margin-top: 30px;
+}
+.five {
+    background-color : yellow;
+    position : absolute;
+    margin-top: 160px;
+    margin-right: 110vh;
+}
+.six {
+    background-color: yellow;
+    position : absolute;
+    margin-top: 160px;
+    margin-right: 20vh;
+}
+.seven{
+    background-color: yellow;
+    position : absolute;
+    margin-right: -70vh;
+    margin-top: 160px;
+}
+.eight {
+    background-color: yellow;
+    position : absolute;
+    margin-top: 45vh;
+    margin-right: 50vh;
+}
+.nine {
+    background-color: yellow;
+    position : absolute;
+    margin-top : 45vh;
+    margin-left: 40vh;
 }
